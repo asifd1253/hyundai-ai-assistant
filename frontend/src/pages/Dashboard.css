@@ -1,0 +1,269 @@
+
+/* MAIN DASHBOARD */
+.dashboard {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.dashboard-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* WELCOME SECTION */
+.dashboard-welcome {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 300px;
+  padding: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(120deg, #002d62, #0057a8);
+  border-radius: 20px;
+
+  color: #ffffff;
+}
+
+.welcome-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #b8d8ff;
+}
+
+.dashboard-welcome h1 {
+  margin: 16px 0;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+}
+
+.dashboard-welcome p {
+  max-width: 550px;
+  margin-bottom: 26px;
+
+  color: #dbeafe;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* WELCOME BUTTON */
+.welcome-button {
+  display: inline-block;
+  padding: 12px 22px;
+
+  background: #ffffff;
+  color: #003b7a;
+
+  border-radius: 8px;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition: all 0.2s ease;
+}
+
+.welcome-button:hover {
+  background: #e8f1ff;
+  transform: translateY(-2px);
+}
+
+/* DECORATIVE CIRCLE */
+.welcome-decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 260px;
+  height: 260px;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.welcome-circle {
+  width: 170px;
+  height: 170px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 800;
+}
+
+/* DASHBOARD SECTION */
+.dashboard-section {
+  margin-top: 48px;
+}
+
+.section-heading {
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-heading p {
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* FEATURE CARDS */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.dashboard-card {
+  padding: 28px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  transition: all 0.25s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  border-color: #b8d8ff;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.07);
+}
+
+.card-icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.brochure-icon {
+  background: #e8f1ff;
+  color: #003b7a;
+}
+
+.assistant-icon {
+  background: #e5f7ef;
+  color: #087443;
+}
+
+.dashboard-card h3 {
+  margin: 22px 0 10px;
+  color: #111827;
+  font-size: 19px;
+}
+
+.dashboard-card p {
+  min-height: 48px;
+  margin-bottom: 22px;
+
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.card-link {
+  color: #0057a8;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* RAG INFORMATION */
+.dashboard-info {
+  margin-top: 32px;
+  padding: 24px;
+
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
+}
+
+.dashboard-info h3 {
+  margin: 0 0 8px;
+  color: #003b7a;
+  font-size: 16px;
+}
+
+.dashboard-info p {
+  margin: 0;
+  color: #475569;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 24px 18px;
+  }
+
+  .dashboard-welcome {
+    padding: 30px 24px;
+  }
+
+  .welcome-decoration {
+    display: none;
+  }
+
+  .dashboard-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-section {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 18px 14px;
+  }
+
+  .dashboard-welcome {
+    min-height: auto;
+    padding: 28px 20px;
+    border-radius: 14px;
+  }
+
+  .dashboard-welcome h1 {
+    font-size: 30px;
+  }
+
+  .dashboard-card {
+    padding: 22px;
+  }
+
+  .section-heading h2 {
+    font-size: 21px;
+  }
+}
