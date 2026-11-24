@@ -29,11 +29,11 @@ Instead of relying entirely on the language model's general knowledge, the appli
 
 | Resource | Link |
 |---|---|
-| Live application | https://hyundai-ai-assistant-frontend.onrender.com/login |
+| Live application | https://hyundai-ai-assistant-frontend.onrender.com/ |
 | Backend API | https://hyundai-ai-assistant-ymy3.onrender.com |
 | Backend health check | https://hyundai-ai-assistant-ymy3.onrender.com/api/health |
 | GitHub repository | https://github.com/asifd1253/hyundai-ai-assistant |
-| Demonstration video | [Add demonstration video link before submission] |
+| Demonstration video | https://drive.google.com/file/d/1py0cH-Sa8hjhhFNUBu0tjQ3d_H_KFe57/view?usp=drive_link |
 
 **Note:** The backend URL is an API service, not the frontend application. The frontend URL is the entry point for reviewers.
 
