@@ -628,22 +628,3 @@ The application uses a Retrieval-Augmented Generation architecture to retrieve r
 The project was developed to satisfy the Cyepro Solutions technical assessment requirements, with a focus on document-grounded responses, usability, and a complete frontend-backend implementation.
 
 ---
-
-## 17. Submission Deliverables
-
-| Deliverable | Status / Link |
-|---|---|
-| Responsive web application | https://hyundai-ai-assistant-frontend.onrender.com/login |
-| Backend API | https://hyundai-ai-assistant-ymy3.onrender.com |
-| GitHub repository | https://github.com/asifd1253/hyundai-ai-assistant |
-| Setup documentation | This README |
-| Demonstration video | Add video link before submission |
-
-**Final submission checklist:**
-- [ ] Verify the GitHub repository is publicly accessible.
-- [ ] Verify the deployed frontend loads successfully.
-- [ ] Verify registration and login work on the deployed application.
-- [ ] Verify brochure upload and processing work in production.
-- [ ] Verify AI answers and source references work in production.
-- [ ] Add the demonstration video link.
-- [ ] Ensure no secrets or `.env` files are committed.
